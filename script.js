@@ -11,17 +11,17 @@ const button3 = document.getElementById("start-mission3")
 var dia = 1
 
 if(dia == 1)
-    button2.style.display = "none"
-    button3.style.display = "none"
+    button2.style.visibility = "hidden"
+    button3.style.visibility = "hidden"
 
 button1.addEventListener("click", () => {
     dia += 1
-    button2.style.display = "block"
+    button2.style.visibility = "visible"
 })
 
 button2.addEventListener("click", () => {
     dia += 1
-    button3.style.display = "block"
+    button3.style.visibility = "visible"
 })
 
 button3.addEventListener("click", () => {
