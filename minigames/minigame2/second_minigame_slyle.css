@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    background: blue;
+    overflow: hidden;
+    text-align: center;
+}
+#mycanvas{
+    background:lightcyan;
+    z-index: 3;
+}

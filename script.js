@@ -22,6 +22,8 @@ button1.addEventListener("click", () => {
 button2.addEventListener("click", () => {
     dia += 1
     button3.style.visibility = "visible"
+    
+    const mission = createElement("/minigames/minigame2/second_minigame.html")
 })
 
 button3.addEventListener("click", () => {
